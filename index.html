@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>To Do</title>
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <main>
+            <section>
+                <h1>To Do</h1>
+                <div class="side">
+                    <input type="text" id="new" placeholder="New Task:">
+                    <button onclick="add()" id="submit"><img alt="buscar" src="img/lupa.png" width="50px" height="50px"></button>
+                </div>
+                <h2>Tasks</h2>
+                <section id="task">
+                    <div>
+                        <h3 id="1">Comprar Comida</h3>
+                        <i class="fa-solid fa-book" onclick="feito(1)"></i>
+                    </div>
+                </section>
+            </section>
+        </main>
+    </body>
+    <script src="code.js"></script>
+    <script src="https://kit.fontawesome.com/f5ef098d2f.js" crossorigin="anonymous"></script>
+</html>
